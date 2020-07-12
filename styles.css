@@ -1,0 +1,72 @@
+h1 {
+    font-size: 34px;
+    line-height: 100%;
+    letter-spacing: -.04em;
+    color: #020814;
+    font-weight: 200;
+    text-align: center;
+}
+
+audio {
+    visibility: hidden;
+}
+
+.song-holder {
+    width: 385px;
+    margin: 50px auto;
+}
+
+.audio-holder {
+    width: 225px;
+    margin: 0 auto;
+}
+
+button:active:focus,
+button:focus {
+    outline: 5px auto -webkit-focus-ring-color;
+    outline-offset: -2px;
+}
+button:focus,
+button:hover {
+    color: #333;
+    text-decoration: none;
+}
+button:active {
+    background-image: none;
+    outline: 0;
+    box-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+}
+
+button {
+    display: inline-block;
+    margin-bottom: 0;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    -ms-touch-action: manipulation;
+    touch-action: manipulation;
+    cursor: pointer;
+    border-radius: 4px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    font-weight: 500;
+    line-height: 1.4em;
+    padding: 14px 33px 14px;
+    margin-right: 10px;
+    transition: all 0.3s ease;
+    font-size: 18px;
+    border: 0 solid rgba(0, 0, 0, 0);
+    color: #4a8bfc;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.08), 0 2px 4px rgba(0, 0, 0, 0.12);
+    background: #eef6fe;
+    letter-spacing: -0.01em;
+}
+
+button:focus,
+button:hover {
+    box-shadow: 0 7px 14px rgba(0, 0, 0, 0.12), 0 3px 6px rgba(0, 0, 0, 0.08);
+    background: #4d8dfd;
+    color: #fff;
+    outline: 0;
+}
