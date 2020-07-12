@@ -17,5 +17,6 @@ In the project three different songs are used. The sources for the songs are the
 3. https://freesound.org/people/Disquantic/sounds/525290/ (Disquantic)
 
 
-[image]: https://i.ibb.co/tzXjcKG/Bildschirmfoto-2020-07-12-um-11-32-43.png "Image of the example web page"
+
+![Web-App image](https://i.ibb.co/tzXjcKG/Bildschirmfoto-2020-07-12-um-11-32-43.png "Title")
 
